@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top-bar{
+    background-color: #000080;
+    padding: 10px 0px 1px 0;
+    margin: 0;
+}
+.top-bar .text1 p {
+    text-align: end;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 400;
+    column-gap: 0px;
+}
+.top-bar .text2 {
+    text-align: start;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 400;
+    column-gap: 0px;
+}
+
+.signup{
+    color: #fff;
+    border-radius: 4px;
+    border: 0px;
+    margin-left: 15px;
+    padding: 3px 15px 3px 15px;
+}
+.image img{
+    height: 550px;
+}
+
+/*------- tab------*/
+@media (min-width: 765px){
+    .content{
+        padding: 30px;
+        margin: 0px;
+    }
+    .top-bar .text1 p {
+        text-align: end;
+        color: #fff;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: 400;
+        column-gap: 0px;
+    }
+}
+
+/*---------Mobile--------*/
+@media (max-width:764px) {
+    .image img{
+        height: 300px;
+    }
+    .content{
+        padding: 30px;
+        margin: 0px;
+    }
+    .top-bar .text1 p {
+        text-align: end;
+        color: #fff;
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: 400;
+        column-gap: 0px;
+        text-align: left;
+        padding-left: 10px;
+        text-align: left;
+    }
+}
